@@ -13,10 +13,10 @@ body {
 
 .semi-circle-1 {
     background-color: hsl(289, 85%, 46%);
-    height: 1000px;
+    height: 950px;
     width: 500px;
     border-bottom-left-radius: 250px;
-    border-bottom-right-radius: 250px;
+    border-bottom-right-radius: 300px;
     margin-left: -200px;
     z-index: -1;
 }
@@ -37,7 +37,7 @@ body {
 .app {
     position: absolute;
     top: 150px;
-    left: 270px;
+    left: 220px;
 }
 
 .app-outer {
@@ -264,6 +264,24 @@ body {
     height: 20px;
     width: 20px;
     border-radius: 50%;
+}
+
+.main-content {
+    position: absolute;
+    left: 700px;
+    top: 400px;
+}
+
+.main-header {
+    color: hsl(271, 36%, 24%);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.main-text {
+    margin-top: 20px;
+    color: hsl(270, 7%, 64%);
+    line-height: 25px;
 }
 
 .attribution {
